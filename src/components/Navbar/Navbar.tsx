@@ -6,7 +6,9 @@ const Navbar = () => {
     >
       <div className="container flex justify-between py-4 sm:py-3">
         {/* logo section */}
-        <div className="font-bold text-3xl ">Logo</div>
+        <a href="#home" className="font-bold text-3xl ">
+          Logo
+        </a>
 
         {/* navlinks section */}
         <div>
