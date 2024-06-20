@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <div
       data-aos="fade"
-      className="bg-white text-black shadow-md sm:grid-cols-2"
+      className="fixed w-screen z-10 bg-white text-black shadow-md sm:grid-cols-2"
     >
       <div className="container flex justify-between py-4 sm:py-3">
         {/* logo section */}
@@ -15,18 +15,18 @@ const Navbar = () => {
           <ul className="flex items-center gap-10">
             <li>
               <a
-                href="#home"
-                className="inline-block hover:text-primary text-xl font-semibold"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
                 href="#profile"
                 className="inline-block hover:text-primary text-xl font-semibold"
               >
                 Profile
+              </a>
+            </li>
+            <li>
+              <a
+                href="#projects"
+                className="inline-block hover:text-primary text-xl font-semibold"
+              >
+                Projects
               </a>
             </li>
             <li>

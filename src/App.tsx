@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 import Hero from "./components/Hero/Hero";
 import Contact from "./components/Contact/Contact";
+import Projects from "./components/Projects/Projects";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -27,6 +28,9 @@ const App = () => {
       </div>
       <div id="profile">
         <Profile />
+      </div>
+      <div id="projects">
+        <Projects />
       </div>
       <div id="contact">
         <Contact />
