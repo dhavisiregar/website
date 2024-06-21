@@ -3,15 +3,19 @@ import Image from "../../assets/developer.png";
 const Hero = () => {
   return (
     <div className="relative z-[-1] bg-primary">
-      <div className="container py-16 sm:py-0">
+      <div className="container mx-auto py-16 sm:py-0 px-4 sm:px-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center min-h-[600px]">
           {/* text content section */}
-          <div className="space-y-7 text-white order-2 sm:order-1">
-            <h1 data-aos="fade-up" className="text-7xl font-bold">
+          <div className="space-y-5 sm:space-y-7 text-white order-2 mx-10 sm:order-1 text-center sm:text-left">
+            <h1 data-aos="fade-up" className="text-4xl sm:text-7xl font-bold">
               Hello!
             </h1>
-            <h2 data-aos="fade-up" data-aos-delay="300" className="text-5xl">
-              I'm Dhavi Siregar, a web Developer.
+            <h2
+              data-aos="fade-up"
+              data-aos-delay="300"
+              className="text-2xl sm:text-5xl"
+            >
+              I'm Dhavi Siregar, a Web Developer.
             </h2>
           </div>
 
@@ -24,7 +28,7 @@ const Hero = () => {
             <img
               src={Image}
               alt="laptop"
-              className="object-cover h-100% w-100%"
+              className="object-cover w-72 h-72 sm:w-full sm:h-full"
             />
           </div>
         </div>

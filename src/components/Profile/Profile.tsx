@@ -2,11 +2,11 @@ import Hero from "../../assets/foto-removebg-preview2-fotor-20240603142636.png";
 
 const Profile = () => {
   return (
-    <div className="bg-white p-5 grid grid-cols-3 gap-10 text-black ">
-      <div className="text-center col-span-3">
+    <div className="bg-white p-5 grid grid-cols-1 md:grid-cols-3 gap-10 text-black">
+      <div className="text-center col-span-1 md:col-span-3">
         <h1
           data-aos="fade-up"
-          className="py-8 tracking-wider text-7xl font-bold text-center"
+          className="py-8 tracking-wider text-4xl md:text-7xl font-bold text-center"
         >
           Profile
         </h1>
@@ -16,13 +16,13 @@ const Profile = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="300"
-        className="grid grid-cols-1 px-3 m-auto gap-5 "
+        className="px-3 m-auto gap-5 col-span-1 md:col-span-1"
       >
         <div>
-          <h2 className="font-bold text-5xl">About Me</h2>
+          <h2 className="font-bold text-3xl md:text-5xl">About Me</h2>
         </div>
         <div>
-          <p className="text-xl text-justify">
+          <p className="text-lg md:text-xl text-justify">
             Enthusiastic and dedicated Full-Stack Web Development student with a
             keen interest in building innovative digital solutions. Currently
             honing my skills in both front-end and back-end technologies,
@@ -36,12 +36,16 @@ const Profile = () => {
         </div>
       </div>
 
-      {/* image section  */}
-      <div data-aos="zoom-in" data-aos-delay="500" className=" w-fit m-auto">
+      {/* image section */}
+      <div
+        data-aos="zoom-in"
+        data-aos-delay="500"
+        className="w-fit m-auto col-span-1 md:col-span-1"
+      >
         <img
           src={Hero}
           alt="foto"
-          className="w-96 h-96 object-cover rounded-full"
+          className="w-48 h-48 md:w-96 md:h-96 object-cover rounded-full"
         />
       </div>
 
@@ -49,13 +53,13 @@ const Profile = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="700"
-        className="grid grid-cols-1 m-auto gap-5 text-left"
+        className="m-auto gap-5 text-left col-span-1 md:col-span-1"
       >
         <div>
-          <h1 className="font-bold text-5xl">Details</h1>
+          <h1 className="font-bold text-3xl md:text-5xl">Details</h1>
         </div>
         <div>
-          <p className="text-xl text-left">
+          <p className="text-lg md:text-xl text-left">
             <span className="font-bold">Name: </span>
             <br />
             Dhavi Siregar <br />
