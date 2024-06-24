@@ -1,5 +1,6 @@
 import Project1 from "../../assets/project-1.png";
 import Project2 from "../../assets/project-2.png";
+import Project3 from "../../assets/project-3.png";
 
 const Projects = () => {
   return (
@@ -48,6 +49,27 @@ const Projects = () => {
             </p>
             <a
               href="https://github.com/dhavisiregar/coffee-shop"
+              className="mt-2 mb-2 bg-primary text-white rounded-md p-2 hover:bg-yellow-400"
+            >
+              Click Here!
+            </a>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="1100"
+            className="w-full sm:w-72 p-5 bg-white flex flex-col items-center text-black text-center rounded-lg"
+          >
+            <img src={Project3} alt="" className="w-72 sm:w-3/5 lg:w-96" />
+            <h3 className="mt-4 mb-2 text-lg font-bold">TriDi Frozen Food</h3>
+            <p className="mt-2 mb-2 text-sm text-justify">
+              Di TriDi Frozen Food, kami sangat prioritaskan untuk menghadirkan
+              produk frozen food dengan kualitas terbaik untuk Anda. Misi kami
+              adalah menyediakan pilihan yang lezat, nyaman, dan bergizi yang
+              membuat persiapan makanan menjadi lebih mudah bagi Anda dan
+              keluarga.
+            </p>
+            <a
+              href="https://tridi-frozen-food.vercel.app/"
               className="mt-2 mb-2 bg-primary text-white rounded-md p-2 hover:bg-yellow-400"
             >
               Click Here!
