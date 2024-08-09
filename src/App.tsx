@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Technologies from "./components/Technologies/Technologies";
 
 const App = () => {
   useEffect(() => {
@@ -31,6 +32,9 @@ const App = () => {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="technologies">
+        <Technologies />
       </div>
       <div id="contact">
         <Contact />

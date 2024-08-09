@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="text-black bg-white sm:grid-cols-2 pb-10">
+    <div className="text-white bg-primary sm:grid-cols-2 pb-10">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
         {/* header section */}
         <div className="col-span-full">

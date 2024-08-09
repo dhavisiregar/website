@@ -31,6 +31,14 @@ const Navbar = () => {
             </li>
             <li>
               <a
+                href="#technologies"
+                className="inline-block hover:text-primary text-xl font-semibold"
+              >
+                Technologies
+              </a>
+            </li>
+            <li>
+              <a
                 href="#contact"
                 className="inline-block hover:text-primary text-xl font-semibold"
               >
