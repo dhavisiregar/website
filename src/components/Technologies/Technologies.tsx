@@ -5,6 +5,8 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { RiGithubFill } from "react-icons/ri";
+import { SiExpress } from "react-icons/si";
+import { BiLogoTailwindCss } from "react-icons/bi";
 
 const Technologies = () => {
   return (
@@ -27,42 +29,56 @@ const Technologies = () => {
           </div>
           <div
             data-aos="flip-left"
-            data-aos-delay="1100"
+            data-aos-delay="700"
             className="rounded-2xl border-4 border-black p-4"
           >
             <TbBrandNextjs className="text-5xl text-black" />
           </div>
           <div
             data-aos="flip-left"
-            data-aos-delay="1500"
+            data-aos-delay="700"
+            className="rounded-2xl border-4 border-black p-4"
+          >
+            <BiLogoTailwindCss className="text-5xl text-cyan-400" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-delay="1100"
             className="rounded-2xl border-4 border-black p-4"
           >
             <BiLogoJavascript className="text-5xl text-yellow-500" />
           </div>
           <div
             data-aos="flip-left"
-            data-aos-delay="1900"
+            data-aos-delay="1100"
             className="rounded-2xl border-4 border-black p-4"
           >
             <BiLogoTypescript className="text-5xl text-blue-700" />
           </div>
           <div
             data-aos="flip-left"
-            data-aos-delay="2300"
+            data-aos-delay="1100"
+            className="rounded-2xl border-4 border-black p-4"
+          >
+            <SiExpress className="text-5xl text-black" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-delay="1500"
             className="rounded-2xl border-4 border-black p-4"
           >
             <FaNodeJs className="text-5xl text-green-500" />
           </div>
           <div
             data-aos="flip-left"
-            data-aos-delay="2700"
+            data-aos-delay="1500"
             className="rounded-2xl border-4 border-black p-4"
           >
             <GrMysql className="text-5xl text-blue-400" />
           </div>
           <div
             data-aos="flip-left"
-            data-aos-delay="3000"
+            data-aos-delay="1500"
             className="rounded-2xl border-4 border-black p-4"
           >
             <RiGithubFill className="text-5xl text-black" />
